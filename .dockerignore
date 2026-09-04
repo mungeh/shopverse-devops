@@ -1,0 +1,57 @@
+# Git
+.git
+.gitignore
+.github/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+frontend/build/
+backend/bin/
+backend/build/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test/coverage files
+coverage/
+coverage.out
+
+# Temporary files
+tmp/
+*.tmp
+*.temp
+
+# Terraform state/secrets
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Private keys/certificates
+*.pem
+*.key
+*.p12
+*.pfx
